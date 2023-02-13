@@ -36,6 +36,10 @@
 
 }
 
+.bg-color-contact {
+    background-color: #fff;
+}
+
 
 /*--------------------------------------------Special paddings/margins/text */
 
@@ -355,4 +359,38 @@ footer {
 
 .history-items {
     margin-bottom: 30px;
+}
+
+
+/*--------------------------------------------Contact Form */
+
+.contact-heading {
+    font-family: "Alfa Slab One", sans-serif;
+    font-weight: 300;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 8%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #da4f24;
+}
+
+/*--------------------------------------------Media Queries */
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }
